@@ -1,0 +1,46 @@
+Start auto log messages stack - Iteration 59.	[MsgId: MMSG-10545]
+Create.c(63): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Create.c(63): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(63): web_submit_data("reservations.pl_2") was successful, 2696 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+globals.h(23): Notify: Transaction "05.Create_ticket_part2" ended with a "Pass" status (Duration: 0,1841).	[MsgId: MMSG-16873]
+globals.h(25): web_custom_request("InfluxDB") started  	[MsgId: MMSG-26355]
+globals.h(25): web_custom_request("InfluxDB") was successful, 0 body bytes, 248 header bytes  	[MsgId: MMSG-26386]
+Create.c(86): Notify: Transaction "06.Create_ticket_payments_detail" started.	[MsgId: MMSG-16999]
+Create.c(88): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+Create.c(88): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 434.	[MsgId: MMSG-10545]
+Create.c(63): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Create.c(63): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Create.c(63): web_submit_data("reservations.pl_2") was successful, 2694 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+globals.h(23): Notify: Transaction "05.Create_ticket_part2" ended with a "Pass" status (Duration: 0,2522).	[MsgId: MMSG-16873]
+globals.h(25): web_custom_request("InfluxDB") started  	[MsgId: MMSG-26355]
+globals.h(25): web_custom_request("InfluxDB") was successful, 0 body bytes, 248 header bytes  	[MsgId: MMSG-26386]
+Create.c(86): Notify: Transaction "06.Create_ticket_payments_detail" started.	[MsgId: MMSG-16999]
+Create.c(88): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+Create.c(88): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 536.	[MsgId: MMSG-10545]
+Create.c(8): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Create.c(8): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Create.c(8): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Create.c(8): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Create.c(8): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 541.	[MsgId: MMSG-10545]
+Starting action Create.	[MsgId: MMSG-15919]
+Create.c(6): Notify: Transaction "03.Search_FindFlight" started.	[MsgId: MMSG-16999]
+Create.c(8): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Create.c(8): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Create.c(8): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Create.c(8): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Create.c(8): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

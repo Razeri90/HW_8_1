@@ -1,0 +1,130 @@
+[
+    {
+        "actionName": "Create",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t5.inf",
+                "time": 1618149835559
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t6.inf",
+                "time": 1618149835635
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t7.inf",
+                "time": 1618149835800
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t8.inf",
+                "time": 1618149835869
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t9.inf",
+                "time": 1618149836093
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t10.inf",
+                "time": 1618149836182
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t11.inf",
+                "time": 1618149836369
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t12.inf",
+                "time": 1618149836447
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "03.Search_FindFlight",
+                "rawStartTime": 1618149835286,
+                "rawEndTime": 1618149835561,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09819817543029785
+            },
+            {
+                "transactionName": "04.Create_ticket",
+                "rawStartTime": 1618149835640,
+                "rawEndTime": 1618149835802,
+                "thinkTime": 0.0,
+                "wastedTime": 0.040354013442993167
+            },
+            {
+                "transactionName": "05.Create_ticket_part2",
+                "rawStartTime": 1618149835873,
+                "rawEndTime": 1618149836095,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05105948448181152
+            },
+            {
+                "transactionName": "06.Create_ticket_payments_detail",
+                "rawStartTime": 1618149836185,
+                "rawEndTime": 1618149836372,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06033468246459961
+            }
+        ]
+    },
+    {
+        "actionName": "Delete_All",
+        "steps": [
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t13.inf",
+                "time": 1618149836798
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t14.inf",
+                "time": 1618149836873
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: itinerary.pl",
+                "infFile": "t15.inf",
+                "time": 1618149837051
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: InfluxDB",
+                "infFile": "t16.inf",
+                "time": 1618149837125
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "09.Itinerary_all_ticket",
+                "rawStartTime": 1618149836458,
+                "rawEndTime": 1618149836800,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09935355186462403
+            },
+            {
+                "transactionName": "10.Delete_all_ticket",
+                "rawStartTime": 1618149836877,
+                "rawEndTime": 1618149837052,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03969883918762207
+            }
+        ]
+    }
+]

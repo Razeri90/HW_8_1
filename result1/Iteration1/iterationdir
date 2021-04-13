@@ -1,0 +1,8 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[Delete_All]
+SnapshotIndex=I1_Delete_All
+[Create]
+SnapshotIndex=I1_Create
+[vuser_end]
+SnapshotIndex=I1_vuser_end
